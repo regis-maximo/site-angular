@@ -1,0 +1,68 @@
+p {
+    color: dimgrey;
+    line-height: 30px;
+    font-size: 1.2rem;
+}
+h1, h2 {
+    text-transform: uppercase;
+    font-size: xx-large;
+    font-weight: bold;
+    margin-top: 30px;
+    text-align: center;
+}
+h2 {
+    color: rgb(84, 60, 219);
+    font-size: large;
+}
+img {
+    width: 100%;
+}
+.container {
+    background-color: #fff;
+}
+
+/* BREAK-POINT */
+@media (min-width: 640px) {
+
+    .container-p {
+        position: relative;
+        float: left;
+        text-align: left;
+        height: 100%;
+        width: auto;
+    }
+    .container-p p {
+        text-align: left;
+        width: 50%;
+        margin-left: 10%;
+    }
+    .container img {
+        max-width: 340px;
+        max-height: 400px;
+        margin-right: 10%;
+    }
+    .container-img {
+        height: 100%;
+        width: auto;
+        position: absolute;
+        top: -60px;
+        right: 0;
+    }
+
+    .container-consertos {
+        margin-top: 200px;
+    }
+    .container-consertos img {
+      margin-left: 33%;
+    }
+
+    .pcs {
+        margin-left: 33%;
+        margin-bottom: 20px;
+        border-radius: 2px;
+    }
+    .pcs-p {
+        text-align: center;
+    }
+ 
+}

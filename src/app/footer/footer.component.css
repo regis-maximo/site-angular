@@ -1,0 +1,54 @@
+.footer {
+    width: 100%;
+    background-color: rgb(68, 68, 68);
+    display: inline-block;
+    margin-top: 20px;
+}
+.footer-bandeiras p {
+    color: #fff;
+    margin-bottom: -1%;
+}
+.footer-bandeiras ul {
+    list-style: none;
+}
+.footer-bandeiras li {
+    display: inline;
+    margin-left: 3%;
+}
+
+.footer-contatos-empresa p {
+    color: #fff;
+    font-size: 12px;
+    margin-left: 2%;
+    margin-top: -10px;
+}
+.footer-contatos-empresa h3 {
+    color: #fff;
+    font-size: 12px;
+    margin-left: 2%;
+    margin-top: 50px;
+}
+
+.footer-social {
+    
+    right: 0;
+}
+.footer-social p {
+    color: #fff;
+    float: right;
+    margin-right: 5%;
+}
+.footer-social ul {
+    float: right;
+    margin-right: -100px;
+    margin-top: 50px;
+    list-style: none;
+    
+}
+.footer-social li {
+    display: inline;
+}
+.footer-social img {
+    margin-top: -10px;
+    width: 40px;
+}

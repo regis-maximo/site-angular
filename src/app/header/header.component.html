@@ -1,0 +1,44 @@
+<p>
+    <mat-toolbar class="my-container">
+      <span class="eSp">
+      </span>
+      <span class="example-spacer"></span>
+      <button mat-icon-button class="example-icon favorite-icon" aria-label="Example icon-button with heart icon">
+        <mat-icon>favorite</mat-icon>
+      </button>
+      <button mat-icon-button class="example-icon" aria-label="Example icon-button with share icon">
+        <mat-icon>share</mat-icon>
+      </button>
+    </mat-toolbar>
+ </p>
+ 
+ <div class="animacao"></div>
+
+ <nav class="navbar navbar-expand-lg navbar-light bg-light" style="margin-top: 0;">
+ 
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Alterna navegação"
+  (click) = "toggleNavbar()">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse"
+    [ngClass]="{'show': navbarOpen}" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+       <a class="nav-link" routerLink="/welcome">HOME</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/servicos">SERVIÇOS</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">PRECOS</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+
+
+
+<!--
+  
+-->

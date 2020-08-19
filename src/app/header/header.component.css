@@ -1,0 +1,25 @@
+.example-spacer {
+    flex: 1 1 auto;
+  }
+  .eSp {
+      margin-left: 10%;
+  }
+  .my-container {
+      background-image: url('/assets/imagens/fundo-heard.jpg');
+      background-repeat: no-repeat;
+      height: 10rem;
+      margin-bottom: -14px;
+  }
+  .animacao {
+      color: darkorange;
+      font-size: 2rem;
+      text-align: center;
+      font-style: italic;
+      height: 3rem;
+      margin-top: 5%;
+      line-height: 30px;
+      height: 80px;
+  }
+  .mat-tab-group {
+    margin-bottom: 10px;
+  }
